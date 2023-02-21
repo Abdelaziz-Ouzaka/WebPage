@@ -24,6 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -49,7 +50,9 @@
   },
   "devDependencies": {
     "gh": "^2.8.9",
+    "gh-pages": "^5.0.0",
     "pages": "^0.0.16",
+    "s": "^1.0.0",
     "tailwindcss": "^3.2.4"
   }
 }
